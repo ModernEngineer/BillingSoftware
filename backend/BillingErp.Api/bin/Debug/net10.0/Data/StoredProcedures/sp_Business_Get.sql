@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE dbo.sp_Business_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT TOP 1 * FROM dbo.Businesses;
+END

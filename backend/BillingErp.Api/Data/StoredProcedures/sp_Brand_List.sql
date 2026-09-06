@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE dbo.sp_Brand_List
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT Id, Name, Status FROM dbo.Brands ORDER BY Name ASC;
+END
